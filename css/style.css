@@ -1,0 +1,77 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.wrapper {
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background: cover;
+  min-height: 100vh;
+  background-position: left;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 46px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-bottom: 240px;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu li {
+  margin-left: 25px;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.item {
+  color: #fff;
+}
+
+.title {
+  font-size: 120px;
+  line-height: 141px;
+  margin-bottom: 15px;
+}
+
+.text {
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 46px;
+}
+.slick-dots {
+  list-style: none;
+  display: flex;
+}
+
+.slick-dots li + li {
+  margin-left: 20px;
+}
+
+.slick-dots button {
+  font-size: 0;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: #fff;
+}
